@@ -1,0 +1,31 @@
+/* Sección de Contribución */
+.ods-info {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ods-info h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.ods-info h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.ods-info p {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ods-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
