@@ -3,6 +3,6 @@
 
 INTEGRANTES
 
-Luis Fernando Mencia Chipa
-Karla Anyeli Magallanes Vicente
-Christopher Lucas Leyva Chumpitaz
+Luis Fernando Mencia Chipa,
+Karla Anyeli Magallanes Vicente,
+Christopher Lucas Leyva Chumpitaz,
