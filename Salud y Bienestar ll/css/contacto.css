@@ -1,0 +1,173 @@
+
+/* Sección del equipo */
+.team-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.team-section h2 {
+    color: #4CBB17;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.team-member a {
+    color: #25D366;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.team-member a:hover {
+    color: #128C7E;
+}
+
+/* Contenedor principal para organizar las secciones */
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo del contenedor del formulario */
+.container.contact-form {
+    flex: 1;
+    max-width: 45%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #88C69C;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(17, 17, 17, 0.548);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilo de la sección de preguntas frecuentes */
+.faq-section {
+    flex: 1;
+    max-width: 45%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+}
+
+.faq-section h2, .contact-form h2 {
+    color: #4CBB17;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.faq-section h3, .contact-form h3 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Otros estilos del formulario de contacto */
+
+.contact-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form .input-wrapper {
+    position: relative;
+}
+
+.contact-form .input-wrapper i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #F44336;
+    font-size: 0.875em;
+    display: block;
+    margin-top: 5px;
+}
+
+.error-message::before {
+    content: "⚠ ";
+}
